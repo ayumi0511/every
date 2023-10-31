@@ -1,0 +1,2 @@
+module AddStoresHelper
+end

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background-color: #f4f4f4;
+    }
+
+    .form-container {
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      padding: 20px;
+      width: 400px;
+    }
+
+    h1 {
+      font-size: 24px;
+      text-align: center;
+    }
+
+    .form-row {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 15px;
+    }
+
+    .form-group {
+      flex: 1;
+    }
+
+    .form-group label {
+      display: block;
+      font-weight: bold;
+    }
+
+    .form-group input, .form-group select {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+    }
+
+    .form-group .small-text {
+      font-size: 12px;
+      color: #777;
+    }
+
+    .form-group .age-input {
+      width: 50%;
+    }
+
+    .form-group .address-input {
+      width: 70%;
+    }
+
+    .btn-container {
+      text-align: center;
+    }
+
+    .btn {
+      background-color: #007bff;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="form-container">
+      <h1>新規登録</h1>
+      <div class="form-row">
+        <div class="form-group">
+          <label for="nickname">ニックネーム</label>
+          <input type="text" id="nickname" name="nickname">
+        </div>
+        <div class="form-group">
+          <label for="email">メールアドレス</label>
+          <input type="email" id="email" name="email">
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label for="password">パスワード</label>
+          <input type="password" id="password" name="password">
+        </div>
+        <div class="form-group">
+          <label for="confirm-password">パスワード確認</label>
+          <input type="password" id="confirm-password" name="confirm-password">
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label for="last-name">姓（全角）</label>
+          <input type="text" id="last-name" name="last-name">
+        </div>
+        <div class="form-group">
+          <label for="first-name">名（全角）</label>
+          <input type="text" id="first-name" name="first-name">
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label for="last-name-kana">姓カナ（全角）</label>
+          <input type="text" id="last-name-kana" name="last-name-kana">
+        </div>
+        <div class="form-group">
+          <label for "first-name-kana">名カナ（全角）</label>
+          <input type="text" id="first-name-kana" name="first-name-kana">
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label for="birthdate">生年月日</label>
+          <input type="date" id="birthdate" name="birthdate">
+        </div>
+        <div class="form-group">
+          <label for="age">年齢</label>
+          <input type="number" id="age" name="age" class="age-input">
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label for="zipcode">郵便番号</label>
+          <input type="text" id="zipcode" name="zipcode" class="address-input">
+        </div>
+        <div class="form-group">
+          <label for="prefecture">都道府県</label>
+          <select id="prefecture" name="prefecture">
+            <option value="">選択してください</option>
+            <!-- 他の選択肢を追加 -->
+          </select>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label for="city">市区町村</label>
+          <input type="text" id="city" name="city" class="address-input">
+        </div>
+        <div class="form-group">
+          <label for="street">番地</label>
+          <input type="text" id="street" name="street" class="address-input">
+        </div>
+      </div>
+      <div class="btn-container">
+        <button type="submit" class="btn">登録</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
