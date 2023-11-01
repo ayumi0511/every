@@ -51,6 +51,7 @@ has_many :orders
 Subscription テーブル:
 
 | Column                  |	Type      |	Options       |
+|-------------------------|-----------|---------------|
 | standard                | boolean	  |               |
 | advanced                | boolean	  |               |
 | premium                 |	boolean	  |               |
@@ -61,6 +62,7 @@ belongs_to :user
 Order テーブル:
 
 | Column                  | Type      |	Options       |
+|-------------------------|-----------|---------------|
 | store                   |	string    |               |
 | menu                    | string    |               |
 
@@ -70,6 +72,7 @@ belongs_to :user
 Login テーブル:
 
 | Column                  | Type      |	Options       |
+|-------------------------|-----------|---------------|
 | email                   | string    |               |
 | password                | string    |               |
 | password_confirmation   |	string    |               |
@@ -77,12 +80,14 @@ Login テーブル:
 Post テーブル:
 
 | Column                  | Type      | Options       |
+|-------------------------|-----------|---------------|
 | image_url               | string    |               |
 | text                    | text      |               |
 
 Add_store テーブル:
 
 | Column                  | Type      | Options       |
+|-------------------------|-----------|---------------|
 | store_name              | string    |               |
 | location                | string    |               |
 | menu                    | string    |               | 
@@ -90,6 +95,7 @@ Add_store テーブル:
 Data テーブル:
 
 | Column                  | Type      | Options       |
+|-------------------------|-----------|---------------|
 | age	                    | integer   |               |
 | gender                  | string    |               |
 | post_code               | string    |               |
