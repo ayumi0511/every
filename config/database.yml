@@ -8,7 +8,7 @@ development:
   username: root
   password:
   host: localhost
-  database: every_rails7_development
+  database: every_development
 
 test:
   <<: *default
@@ -16,7 +16,7 @@ test:
   username: root
   password:
   host: localhost
-  database: every_rails7_test
+  database: every_test
 
 production:
   <<: *default
