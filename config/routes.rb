@@ -9,8 +9,7 @@ Rails.application.routes.draw do
   get '/buttons', to: 'buttons#index'
 
   root 'top_pages#index'
-  # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
-
-  # Defines the root path route ("/")
-  # root "articles#index"
+  
+  resources :tweets, only: [:index, :new, :create, :destroy]
+  
 end
