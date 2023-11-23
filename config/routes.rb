@@ -10,6 +10,6 @@ Rails.application.routes.draw do
 
   root 'top_pages#index'
   
-  resources :tweets, only: [:index, :new, :create, :destroy, :edit, :update]
+  resources :tweets
   
 end
