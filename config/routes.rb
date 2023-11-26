@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  devise_for :users
   get 'top_pages/index'
   get '/subscriptions', to: 'subscriptions#index'
   get '/orders', to: 'orders#index'
