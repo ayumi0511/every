@@ -1,28 +1,3 @@
-# README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
 # アプリケーション名
 デイリー（Daily）
 
@@ -37,11 +12,12 @@ Things you may want to cover:
 デプロイ済みのURL: https://every-skt5.onrender.com/
 
 ## 利用方法
-1. アプリにログインします。
-2. サブスクリプションで提供されているメニューを閲覧します。
-3. お気に入りのメニューを選択し、注文します。
-4. 支払いを行います。
-5. メニューが提供される時間に店舗でサービスを利用してください。
+1. ユーザー登録をしてください。
+2. アプリにログインします。
+3. サブスクリプションで提供されているメニューを閲覧します。
+4. お気に入りのメニューを選択し、注文します。
+5. 支払いを行います。
+6. メニューが提供される時間に店舗でサービスを利用してください。
 
 ## アプリケーションを作成した背景
 "デイリー"アプリは、飲食店などの店舗経営者が顧客を引き寄せるためにサブスクリプションのメニューを提供するのを支援することを目的としています。
@@ -99,7 +75,7 @@ Things you may want to cover:
 % yarn install
 
 ## 工夫したポイント
-このアプリではシンプルなユーザーインテーフェースと使いやすさに重点を置きました。
+このアプリではシンプルなユーザーインターフェースと使いやすさに重点を置きました。
 また、顧客と店舗オーナーの双方に価値を提供できるような機能を開発できるように注力しました。
 
 ## 改善点
