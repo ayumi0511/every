@@ -61,16 +61,13 @@
 
 ### 投稿内容について詳細表示
 ログインしている投稿者は詳細表示、編集、削除ができます。
-
-詳細表示
+### 詳細
 [![Image from Gyazo](https://i.gyazo.com/a7af592c2346166f33052f75caca88a4.gif)](https://gyazo.com/a7af592c2346166f33052f75caca88a4)
 
-
-編集
+### 編集
 [![Image from Gyazo](https://i.gyazo.com/92f72d0745f4b3e4c3ba9ec0809aaa5b.gif)](https://gyazo.com/92f72d0745f4b3e4c3ba9ec0809aaa5b)
 
-
-削除
+### 削除
 [![Image from Gyazo](https://i.gyazo.com/2482e07a58b332b95808ca6f1b1c7a6d.gif)](https://gyazo.com/2482e07a58b332b95808ca6f1b1c7a6d)
 
 ## 実装予定の機能
