@@ -55,12 +55,12 @@
 
 ## データベース設計
 [ER図]
-![Alt text](image-2.png)
+![Alt text](every.png)
 
 
 ## 画面遷移図
 [画面遷移図]
-![Alt text](image-1.png)
+![Alt text](every.png)
 
 ## 開発環境
 - Ruby on Rails
