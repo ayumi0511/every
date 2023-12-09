@@ -11,7 +11,9 @@ Rails.application.routes.draw do
 
   root 'top_pages#index'
   
-  resources :tweets
+  resources :tweets do
+    resources :comments, only: :create
+  end
   resources :users, only: :show
   
 end
